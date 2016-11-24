@@ -1,0 +1,10 @@
+make -C /lib/modules/3.13.3-89101089/build M=/home/kammirzazad/OS/my_lkm modules
+make[1]: Entering directory `/home/kammirzazad/OS/linux-3.13.3'
+  CC [M]  /home/kammirzazad/OS/my_lkm/syscall.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+WARNING: modpost: missing MODULE_LICENSE() in /home/kammirzazad/OS/my_lkm/syscall.o
+see include/linux/module.h for more information
+  CC      /home/kammirzazad/OS/my_lkm/syscall.mod.o
+  LD [M]  /home/kammirzazad/OS/my_lkm/syscall.ko
+make[1]: Leaving directory `/home/kammirzazad/OS/linux-3.13.3'

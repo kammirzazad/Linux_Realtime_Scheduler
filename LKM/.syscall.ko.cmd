@@ -1,0 +1,1 @@
+cmd_/home/kammirzazad/OS/my_lkm/syscall.ko := ld -r -m elf_i386 -T /home/kammirzazad/OS/linux-3.13.3/scripts/module-common.lds --build-id  -o /home/kammirzazad/OS/my_lkm/syscall.ko /home/kammirzazad/OS/my_lkm/syscall.o /home/kammirzazad/OS/my_lkm/syscall.mod.o
